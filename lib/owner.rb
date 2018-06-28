@@ -40,7 +40,8 @@ def buy_dog(dog)
   self.pets[:dogs] << new_dog
 end
 
-
+def walk_dogs 
+end
 
 
 
