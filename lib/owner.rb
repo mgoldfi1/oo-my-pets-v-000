@@ -25,7 +25,8 @@ def self.reset_all
   @@all.clear
 end
 
-def buy_fish 
+def buy_fish(fish)
+  self.pets[:fishes] << fish
 end
 
 
