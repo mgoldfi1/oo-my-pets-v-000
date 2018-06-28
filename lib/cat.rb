@@ -1,6 +1,6 @@
 class Cat
 
-def initialize
+def initialize(cat)
   @cat = cat
 end
 
