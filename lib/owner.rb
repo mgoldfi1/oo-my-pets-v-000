@@ -59,4 +59,12 @@ def feed_fish
 end
 
 
+def sell_pets
+  self.pets.each do |k,v|
+    v.each {|x| x.mood = "nervous"}
+    v.clear
+  end
+end
+
+
 end
