@@ -8,7 +8,7 @@ def initialize(species)
 end
 
 def say_species
-  @species
+  puts species
 end
 
 
