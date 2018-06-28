@@ -10,7 +10,7 @@ def initialize(species)
 end
 
 def say_species
-  puts self.species
+   self.species
 end
 
 def self.all
